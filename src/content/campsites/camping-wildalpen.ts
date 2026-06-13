@@ -8,54 +8,54 @@ const campingWildalpen: CampsiteConfig = {
   slug: "camping-wildalpen",
   ort: "Wildalpen",
   region: "Steiermark",
-  brandKind: "Camping",
-  regionLong: "Wildalpen · Salzatal · Steiermark · Österreich",
+  brandKind: "Camping an der Salza",
+  regionLong: "Wildalpen · Salzatal · Steiermark",
 
   heroVariant: "center",
 
   claim: "Der schönste Platz an der Salza",
   claimEmphasis: "an der Salza",
-  emailDetail: "eure Lage am rechten Ufer der Salza",
+  emailDetail: "eure Lage direkt am rechten Ufer der Salza",
   intro:
-    "Ebene Stell- und Zeltplätze direkt am rechten Ufer der Salza — bei uns startest du in Wildwassersport, Höhlenwanderungen und ruhige Abende am Lagerfeuer, mitten in den steirischen Bergen.",
+    "Direkt am rechten Ufer der steirischen Salza findest du ebene Plätze, das Rauschen des Flusses und einen Ausgangspunkt für Wildwassersport, Mountainbike-Touren und Wanderungen — Natur pur im Hochschwab.",
 
   statement: {
-    text: "Hier rauscht die Salza nur wenige Schritte hinter deinem Vorzelt.",
+    text: "Bei uns rauscht die Salza nur wenige Schritte hinter deinem Vorzelt.",
     emphasis: "wenige Schritte",
   },
 
   pillars: [
     {
-      title: "Am rechten Ufer der Salza",
-      text: "Der Campingplatz liegt unmittelbar am Wasser — Kanus und Kajaks starten gleich neben den Stellplätzen.",
-      image: { src: `${IMG}/gallery-904ac0cf0a.webp`, alt: "Campingplatz Wildalpen am Ufer der Salza mit Kajakfahrern" },
+      title: "Direkt an der Salza",
+      text: "Camping Wildalpen liegt am rechten Ufer der steirischen Salza — du hörst den Fluss vom Stellplatz aus und bist mitten im Wildwasser-Revier.",
+      image: { src: `${IMG}/gallery-904ac0cf0a.webp`, alt: "Campingplatz am Ufer der Salza mit Brücke und Paddlern" },
     },
     {
-      title: "Wildwasser-Revier",
-      text: "Kajak, Kanu, Rafting, Outside und Canyoning: Auf der Salza findest du Strecken vom Anfänger bis zum Profi.",
-      image: { src: `${IMG}/gallery-ac98a0ae1b.webp`, alt: "Rafting auf der türkisen Salza bei Wildalpen" },
+      title: "Wildwasser vor der Tür",
+      text: "Kanu, Kajak, Rafting, Outside oder Canyoning — die Salza bietet Strecken vom Anfänger bis zum Profi, lokale Sportagenturen sind direkt am Ort.",
+      image: { src: `${IMG}/gallery-ac98a0ae1b.webp`, alt: "Rafting im Wildwasser der Salza" },
     },
     {
-      title: "Camping im Grünen",
-      text: "Ein Hektar Wiese mit Platz für rund 80 Stellplätze, umrahmt von Wald und Bergen — Natur, so weit du schaust.",
-      image: { src: `${IMG}/gallery-b878039e0c.webp`, alt: "Zelte auf der grünen Wiese des Camping Wildalpen vor Bergkulisse" },
+      title: "Persönlich betreut",
+      text: "Unser langjähriger Campingwart Konrad Manseer ist am Platz und beantwortet gerne deine Fragen — von der Anreise bis zur Höhlenführung.",
+      image: { src: `${IMG}/gallery-57e2c12242.webp`, alt: "Rezeption von Camping Wildalpen" },
     },
   ],
 
   usps: [
     "Direkt an der Salza",
     "Gratis WLAN",
-    "42 CEE-Stromplätze",
-    "Barrierefreies WC & Dusche",
-    "Bäckerservice am Platz",
+    "Bäckerservice Mo–Sa",
     "Hunde willkommen",
+    "42 CEE-Stromplätze",
+    "Warmwasser-Duschen",
   ],
 
   trust: {
-    heading: "Darauf ist in Wildalpen Verlass",
-    headingEmphasis: "Wildalpen",
+    heading: "Wildwasser, Wald und klares Quellwasser",
+    headingEmphasis: "klares Quellwasser",
     intro:
-      "Seit Jahren Treffpunkt für Wildwasser-Sportler und Bergfreunde: ehrliche Preise, ein hilfsbereiter Campingwart und ein Platz, an dem für dich das Rauschen der Salza den Takt vorgibt.",
+      "Seit Jahren Treffpunkt der Wildwasser-Szene: ein ebener Platz am Fluss, gepflegte Sanitäranlagen, gratis WLAN und ringsum die unberührte Bergwelt des Hochschwab — ehrlich einfach, mitten in der Natur.",
   },
 
   awards: [],
@@ -63,96 +63,110 @@ const campingWildalpen: CampsiteConfig = {
   saison: { von: "März", bis: "November" },
 
   hero: {
-    aerial: { src: `${IMG}/gallery-4c2c483430.webp`, alt: "Camping Wildalpen am Ufer der Salza, eingebettet in die steirischen Berge" },
+    aerial: { src: `${IMG}/gallery-4c2c483430.webp`, alt: "Die türkise Salza mit Kajakfahrern vor dem Campingplatz Wildalpen" },
+  },
+
+  breather: {
+    image: { src: `${IMG}/gallery-b6cd0eeca6.webp`, alt: "Klares Quellwasser im Quellschutzgebiet bei Wildalpen" },
+    line: "Im Quellgebiet der Wiener Hochquellenleitung.",
   },
 
   camping: {
-    heading: "Camping an der Salza",
+    heading: "Stellplätze und Zeltwiese an der Salza",
     intro:
-      "Ein Hektar ebene Wiese mit rund 80 Stellplätzen auf Rasen, warme Duschen, Stromanschlüsse, Gratis-WLAN und sogar Bäckerservice am Morgen — alles für entspannte Tage am Fluss.",
+      "Rasen und ebener Boden auf rund einem Hektar, Platz für etwa 80 Stellplätze — mit Strom, Warmwasser und kurzen Wegen zum Wasser.",
     features: [
       {
-        title: "Stellplätze unter Bäumen",
-        text: "Ebene Plätze für Wohnwagen, Wohnmobil und Bus mit 42 CEE-Steckdosen und Stromanschluss — schattig unter alten Bäumen am Flussufer.",
-        image: { src: `${IMG}/gallery-107c8c04cd.webp`, alt: "Wohnwagen mit Vorzelt auf einem Stellplatz am Camping Wildalpen" },
+        title: "Stellplätze mit Stromanschluss",
+        text: "42 CEE-Steckdosen für Wohnwagen und Wohnmobil, ebener Untergrund und Strom direkt am Platz — anschließen und ankommen.",
+        image: { src: `${IMG}/gallery-107c8c04cd.webp`, alt: "Wohnwagen mit Vorzelt auf dem Stellplatz" },
       },
       {
-        title: "Zeltwiese & Barrierefreiheit",
-        text: "Weiche Wiese für Zelte, dazu ein barrierefreies WC mit Dusche und Warmwasser — Camping, das für alle passt.",
-        image: { src: `${IMG}/gallery-5937a7208d.webp`, alt: "Zelte auf der Wiese vor dem Sanitärgebäude am Camping Wildalpen" },
+        title: "Zeltwiese am Ufer",
+        text: "Weiche Wiesenplätze für Zelte, nur wenige Schritte vom Rauschen der Salza entfernt — ideal für Paddler und Naturliebhaber.",
+        image: { src: `${IMG}/gallery-a96d9f2b3e.webp`, alt: "Zelte auf der Wiese am Campingplatz Wildalpen" },
       },
       {
-        title: "Rezeption & Campingwart",
-        text: "An der Rezeption hilft dir unser langjähriger Campingwart Konrad Manseer weiter und kennt jeden Wanderweg der Umgebung.",
-        image: { src: `${IMG}/gallery-57e2c12242.webp`, alt: "Rezeption des Camping Wildalpen mit Zelten und Bergkulisse" },
+        title: "Barrierefrei zugänglich",
+        text: "Ein Behinderten-WC mit Dusche und Warmwasser sowie ebene Wege machen den Platz auch mit Handicap gut nutzbar.",
+        image: { src: `${IMG}/gallery-5937a7208d.webp`, alt: "Ebener Zeltplatz mit Sanitärgebäude" },
       },
       {
-        title: "Bootseinstieg an der Salza",
-        text: "Kanu, Kajak und Schlauchboot wassern direkt neben dem Platz ein — die Salza mit ihrer Slalomstrecke beginnt am Ufer.",
-        image: { src: `${IMG}/gallery-21514d8e69.webp`, alt: "Bootseinstieg mit Slalomstangen und Kajaks an der Salza beim Camping Wildalpen" },
+        title: "Warmwasser-Duschen & Service",
+        text: "Großzügige Einzel-Duschen mit Warmwasser, Waschmaschine, Trockner und überdachte Geschirrspülbecken — alles gepflegt und nah.",
+        image: { src: `${IMG}/gallery-b878039e0c.webp`, alt: "Service- und Sanitärgebäude mit Stellplätzen" },
       },
       {
-        title: "Spielplatz für Kinder",
-        text: "Ein eigener Spielplatz mit Rutsche und Klettergerüst sorgt dafür, dass auch die Kleinsten ihren Campingurlaub lieben.",
-        image: { src: `${IMG}/gallery-6566d21c74.webp`, alt: "Spielplatz mit Rutsche am Camping Wildalpen" },
+        title: "Slalomstrecke an der Salza",
+        text: "Die Wildwasser-Slalomstrecke liegt direkt am Platz — Treffpunkt für Kanuten, Kajakfahrer und internationale Wettbewerbe.",
+        image: { src: `${IMG}/gallery-21514d8e69.webp`, alt: "Slalomstrecke an der Salza beim Campingplatz" },
       },
       {
-        title: "Stellplätze am Wildwasser",
-        text: "Viele Plätze liegen in der ersten Reihe zur Salza — vom Vorzelt aus schaust du den Wildwasser-Booten direkt zu.",
-        image: { src: `${IMG}/gallery-19e5dd490f.webp`, alt: "Wildwasserstrecke der Salza direkt vor den Stellplätzen des Camping Wildalpen" },
+        title: "Bootslagerung am Platz",
+        text: "Kanus und Kajaks liegen direkt neben dem Zelt — von der Wiese bist du in Sekunden im Wildwasser der Salza.",
+        image: { src: `${IMG}/gallery-d8a0161e91.webp`, alt: "Kajaks und Zelte auf der Campingwiese" },
       },
     ],
   },
 
   aktivitaeten: {
-    heading: "Abenteuer rund um Wildalpen",
+    heading: "Rund um Wildalpen",
     intro:
-      "Wildwassersport vor der Tür, geführte Höhlenwanderungen und kilometerweite Wanderwege — Wildalpen ist ein Spielplatz für Aktive.",
+      "Die Salza und das Hochschwab-Gebiet vor der Tür — vom Wildwasser über Höhlen bis zum kostenlosen Waldbad.",
     items: [
       {
-        title: "Kajak, Kanu & Rafting",
-        text: "Auf der Salza gibt es Strecken für jedes Können — Anfängerkurse bei den örtlichen Sportagenturen inklusive.",
-        image: { src: `${IMG}/gallery-73990681d0.webp`, alt: "Gruppe mit Kajaks auf einem Anhänger an der Salza in Wildalpen" },
+        title: "Kanu, Kajak & Rafting",
+        text: "Auf der ganzen Länge der Salza gibt es Schwierigkeitsgrade vom Anfänger bis zum Profi — Kurse bei den örtlichen Sportagenturen.",
+        image: { src: `${IMG}/gallery-19e5dd490f.webp`, alt: "Paddler auf der Salza vor dem Campingplatz" },
       },
       {
         title: "Arzberghöhle",
-        text: "Auf den Spuren des Höhlenbären: geführte Höhlenwanderungen meldest du an der Rezeption an, Gruppen bis zwölf Personen.",
-        image: { src: `${IMG}/gallery-2a796975e1.webp`, alt: "Geführte Höhlenwanderung in der Arzberghöhle bei Wildalpen" },
+        text: "Geführte Höhlenwanderung zum letzten Wohnort des Höhlenbären — mit staatlich geprüften Führern, Anmeldung an der Rezeption.",
+        image: { src: `${IMG}/gallery-2a796975e1.webp`, alt: "Geführte Wanderung in der Arzberghöhle" },
       },
       {
-        title: "Wandern & Mountainbike",
-        text: "Fünf Rundwanderwege und zwei Mountainbike-Strecken starten in Wildalpen — die Folder bekommst du beim Campingwart.",
-        image: { src: `${IMG}/gallery-d53981137b.webp`, alt: "Brücke über die Salza im Tal bei Wildalpen, Ausgangspunkt für Wanderungen" },
+        title: "Museum Hochquellenwasser",
+        text: "Von Mai bis Oktober erzählt das Museum die Geschichte der Zweiten Wiener Hochquellenleitung, fertiggestellt im Jahr 1910.",
+        image: { src: `${IMG}/gallery-27f420c8ac.webp`, alt: "Museum HochQuellenWasser Wildalpen" },
+      },
+      {
+        title: "Wandern mit Weitblick",
+        text: "Rund um Wildalpen führen mehrere Rundwanderwege — Hopfgarten-, Krumpen-, Siebensee- und Panorama-Runde mit Blick über die Hochschwab-Bergwelt.",
+        image: { src: `${IMG}/gallery-3cdddfd6b8.webp`, alt: "Blick über die Bergwelt rund um Wildalpen Richtung Eisenerz" },
       },
     ],
   },
 
   anreise: {
-    heading: "Dein Weg ins Salzatal",
+    heading: "Dein Weg nach Wildalpen",
     modes: [
       {
         title: "Mit dem Auto",
-        text: "Über die A9 (Abfahrt Liezen) oder von Norden über Göstling und die B24 ins Salzatal — der Platz ist in Wildalpen ausgeschildert.",
+        text: "Über die B24, die Hochschwab-Bundesstraße, erreichst du Wildalpen — aus Richtung Gußwerk/Mariazell oder von Hieflau im Gesäuse.",
       },
       {
         title: "Mit der Bahn",
-        text: "Nächster Bahnhof ist Hieflau im Gesäuse; von dort weiter mit dem Bus oder Abholung nach Wildalpen auf Anfrage.",
+        text: "Die nächsten Bahnhöfe liegen im Enns- und Gesäusetal (z. B. Hieflau); von dort weiter mit Bus oder Abholung nach Absprache.",
+      },
+      {
+        title: "Mit dem Flugzeug",
+        text: "Die Flughäfen Graz und Wien sind jeweils rund zweieinhalb Autostunden entfernt — der letzte Abschnitt führt durchs Salzatal.",
       },
     ],
   },
 
   galerie: {
-    heading: "Impressionen von der Salza",
+    heading: "Eindrücke von der Salza",
     headingEmphasis: "Salza",
     intro:
-      "Türkises Wasser, Zelte auf der Wiese und bunte Boote am Ufer — ein paar Eindrücke von einem Sommer am Camping Wildalpen.",
-    tag: "März bis November",
+      "Wildwasser, Zeltwiese und das Rauschen des Flusses — ein paar Impressionen vom Platz und seiner Umgebung.",
+    tag: "Ende März bis Ende November",
     moreCount: 12,
     images: [
-      { src: `${IMG}/gallery-6b358a9e80.webp`, alt: "Zelte und Wohnmobile auf der Sommerwiese am Camping Wildalpen" },
-      { src: `${IMG}/gallery-dcfb4e6ac1.webp`, alt: "Bunte Kajaks am Ufer der Salza beim Camping Wildalpen" },
-      { src: `${IMG}/gallery-cb0299951a.webp`, alt: "Gruppe beim Aufwärmen vor der Tour an der Salza" },
-      { src: `${IMG}/gallery-d3c6cdcc72.webp`, alt: "Frühlingstag am Camping Wildalpen mit Wiese und Bergen" },
+      { src: `${IMG}/gallery-d53981137b.webp`, alt: "Campingplatz an der Salza mit Brücke und Blumenwiese" },
+      { src: `${IMG}/gallery-73990681d0.webp`, alt: "Gruppe mit Kajak-Anhänger am Campingplatz" },
+      { src: `${IMG}/gallery-6566d21c74.webp`, alt: "Spielplatz am Campingplatz Wildalpen" },
+      { src: `${IMG}/gallery-6b358a9e80.webp`, alt: "Zelte und Wohnmobile auf der Campingwiese" },
     ],
   },
 
@@ -160,17 +174,14 @@ const campingWildalpen: CampsiteConfig = {
     heading: "Sichere dir deinen Platz an der Salza",
     headingEmphasis: "an der Salza",
     intro:
-      "Sag uns Zeitraum und Personenzahl — wir melden uns persönlich mit deiner Verfügbarkeit und allen Infos zur Anreise.",
+      "Sag uns Zeitraum und Personenzahl — das Team von Camping Wildalpen meldet sich persönlich mit deiner Verfügbarkeit.",
     pricesArePlaceholder: false,
     priceNote:
-      "Richtpreise je Nacht für 2 Erwachsene inkl. Stellplatz und Nächtigungsabgabe — Strom € 6, Hund € 4 und Kinder (6–14 J.) € 6 pro Tag zusätzlich (Preisliste 2025).",
-    highlight: {
-      title: "Mitten im Wildwasser-Revier",
-      text: "Bootseinstieg und Slalomstrecke der Salza liegen direkt am Platz.",
-    },
+      "Richtwerte pro Nacht inkl. 2 Erwachsene (Erwachsene € 12, Kinder 6–14 J. € 6) · zzgl. € 2 Nächtigungsabgabe p. P., Strom € 6 und Hund € 4 — Preisliste 2025.",
+    highlight: { title: "Wildwasser inklusive", text: "Vom Stellplatz bist du in Sekunden an der Salza." },
     categories: [
-      { id: "zelt", label: "Zelt / PKW", perNight: 32, perExtraGuest: 14 },
-      { id: "wohnwagen", label: "Wohnwagen & Wohnmobil", perNight: 34, perExtraGuest: 14 },
+      { id: "zelt", label: "Zelt- / PKW-Stellplatz", perNight: 28, perExtraGuest: 12 },
+      { id: "wohnwagen", label: "Wohnwagen / Wohnmobil", perNight: 30, perExtraGuest: 12 },
     ],
   },
 
@@ -187,11 +198,11 @@ const campingWildalpen: CampsiteConfig = {
   nav: [
     { label: "Camping", href: "#camping", children: [
       { label: "Stellplätze", href: "#camping" },
-      { label: "Lage am Fluss", href: "#camping" },
+      { label: "Sanitär", href: "#camping" },
     ]},
-    { label: "Aktiv", href: "#aktivitaeten" },
+    { label: "Aktiv an der Salza", href: "#aktivitaeten" },
     { label: "Galerie", href: "#galerie" },
-    { label: "Preise & Anreise", href: "#booking", children: [
+    { label: "Preise & Lage", href: "#booking", children: [
       { label: "Preise", href: "#booking" },
       { label: "Anreise", href: "#anreise" },
     ]},
