@@ -27,17 +27,17 @@ const campingWildalpen: CampsiteConfig = {
   pillars: [
     {
       title: "Direkt an der Salza",
-      text: "Camping Wildalpen liegt am rechten Ufer der steirischen Salza — du hörst den Fluss vom Stellplatz aus und bist mitten im Wildwasser-Revier.",
+      text: "Camping Wildalpen liegt am rechten Ufer der Salza — du hörst den Fluss vom Stellplatz und bist mitten im Wildwasser-Revier.",
       image: { src: `${IMG}/gallery-904ac0cf0a.webp`, alt: "Campingplatz am Ufer der Salza mit Brücke und Paddlern" },
     },
     {
       title: "Wildwasser vor der Tür",
-      text: "Kanu, Kajak, Rafting, Outside oder Canyoning — die Salza bietet Strecken vom Anfänger bis zum Profi, lokale Sportagenturen sind direkt am Ort.",
+      text: "Kanu, Kajak, Rafting oder Canyoning — die Salza bietet Strecken für alle Könnensstufen, Sportagenturen direkt vor Ort.",
       image: { src: `${IMG}/gallery-ac98a0ae1b.webp`, alt: "Rafting im Wildwasser der Salza" },
     },
     {
       title: "Persönlich betreut",
-      text: "Unser langjähriger Campingwart Konrad Manseer ist am Platz und beantwortet gerne deine Fragen — von der Anreise bis zur Höhlenführung.",
+      text: "Campingwart Konrad Manseer ist am Platz und beantwortet deine Fragen — von der Anreise bis zur Höhlenführung.",
       image: { src: `${IMG}/gallery-57e2c12242.webp`, alt: "Rezeption von Camping Wildalpen" },
     },
   ],
@@ -131,7 +131,7 @@ const campingWildalpen: CampsiteConfig = {
       },
       {
         title: "Wandern mit Weitblick",
-        text: "Rund um Wildalpen führen mehrere Rundwanderwege — Hopfgarten-, Krumpen-, Siebensee- und Panorama-Runde mit Blick über die Hochschwab-Bergwelt.",
+        text: "Rund um Wildalpen führen mehrere Rundwanderwege — Hopfgarten-, Krumpen-, Siebensee- und Panorama-Runde mit Blick ins Hochschwab.",
         image: { src: `${IMG}/gallery-3cdddfd6b8.webp`, alt: "Blick über die Bergwelt rund um Wildalpen Richtung Eisenerz" },
       },
     ],
