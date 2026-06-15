@@ -28,7 +28,7 @@ const campingWildalpen: CampsiteConfig = {
     {
       title: "Direkt an der Salza",
       text: "Camping Wildalpen liegt am rechten Ufer der Salza — du hörst den Fluss vom Stellplatz und bist mitten im Wildwasser-Revier.",
-      image: { src: `${IMG}/gallery-904ac0cf0a.webp`, alt: "Campingplatz am Ufer der Salza mit Brücke und Paddlern" },
+      image: { src: `${IMG}/gallery-19e5dd490f.webp`, alt: "Campingplatz an der Salza mit Kajakfahrern und internationalen Flaggen" },
     },
     {
       title: "Wildwasser vor der Tür",
@@ -84,7 +84,7 @@ const campingWildalpen: CampsiteConfig = {
       {
         title: "Zeltwiese am Ufer",
         text: "Weiche Wiesenplätze für Zelte, nur wenige Schritte vom Rauschen der Salza entfernt — ideal für Paddler und Naturliebhaber.",
-        image: { src: `${IMG}/gallery-a96d9f2b3e.webp`, alt: "Zelte auf der Wiese am Campingplatz Wildalpen" },
+        image: { src: `${IMG}/gallery-6b358a9e80.webp`, alt: "Zelte und Wohnmobile auf der sonnigen Campingwiese an der Salza" },
       },
       {
         title: "Barrierefrei zugänglich",
@@ -117,7 +117,7 @@ const campingWildalpen: CampsiteConfig = {
       {
         title: "Kanu, Kajak & Rafting",
         text: "Auf der ganzen Länge der Salza gibt es Schwierigkeitsgrade vom Anfänger bis zum Profi — Kurse bei den örtlichen Sportagenturen.",
-        image: { src: `${IMG}/gallery-19e5dd490f.webp`, alt: "Paddler auf der Salza vor dem Campingplatz" },
+        image: { src: `${IMG}/gallery-904ac0cf0a.webp`, alt: "Paddler auf der türkisen Salza mit Campingplatz und Brücke im Hintergrund" },
       },
       {
         title: "Arzberghöhle",
@@ -132,7 +132,7 @@ const campingWildalpen: CampsiteConfig = {
       {
         title: "Wandern mit Weitblick",
         text: "Rund um Wildalpen führen mehrere Rundwanderwege — Hopfgarten-, Krumpen-, Siebensee- und Panorama-Runde mit Blick ins Hochschwab.",
-        image: { src: `${IMG}/gallery-3cdddfd6b8.webp`, alt: "Blick über die Bergwelt rund um Wildalpen Richtung Eisenerz" },
+        image: { src: `${IMG}/gallery-0329880ccb.webp`, alt: "Wildblumen und Holzbrücke über die Salza im Salzatal" },
       },
     ],
   },
@@ -166,7 +166,7 @@ const campingWildalpen: CampsiteConfig = {
       { src: `${IMG}/gallery-d53981137b.webp`, alt: "Campingplatz an der Salza mit Brücke und Blumenwiese" },
       { src: `${IMG}/gallery-73990681d0.webp`, alt: "Gruppe mit Kajak-Anhänger am Campingplatz" },
       { src: `${IMG}/gallery-6566d21c74.webp`, alt: "Spielplatz am Campingplatz Wildalpen" },
-      { src: `${IMG}/gallery-6b358a9e80.webp`, alt: "Zelte und Wohnmobile auf der Campingwiese" },
+      { src: `${IMG}/gallery-a96d9f2b3e.webp`, alt: "Zelte auf der Wiese am Campingplatz Wildalpen" },
     ],
   },
 
